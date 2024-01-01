@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const PORT = 6666;
+const PORT = 3005;
 
 const limiter = rateLimit({
 	windowMs: 3 * 60 * 100, // 30 seconds
